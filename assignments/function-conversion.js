@@ -5,11 +5,18 @@
 // };
 // myFunction();
 
+let myfunction = () =>{
+ console.log("Function was invoked!");
+ };
+myfunction();
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
-
+let anotherFunction = (param) => {
+ return param;
+};
+anotherFunction("Example");
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
