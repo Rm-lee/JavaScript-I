@@ -19,37 +19,37 @@ const example = {
 
 // Write your intern objects here:
 const intern1 = {
-  "id":1,
-  "email":"mmelloy0@psu.edu",
+  "id": 1,
+  "email": "mmelloy0@psu.edu",
   "name": "Mitzi",
-   "gender": "F"
+  "gender": "F"
 }
 const intern2 = {
-  "id":2,
-  "email":"kdiben1@tinypic.com",
+  "id": 2,
+  "email": "kdiben1@tinypic.com",
   "name": "Kennan",
-   "gender": "M",
-   "speak": () =>{return "Hello, my name is Kennan!"}
+  "gender": "M",
+  "speak": () => "Hello, my name is Kennan!"
 
 }
 const intern3 = {
-  "id":3,
-  "email":"kmummery2@wikimedia.org",
+  "id": 3,
+  "email": "kmummery2@wikimedia.org",
   "name": "Keven",
-   "gender": "M"
+  "gender": "M"
 }
 const intern4 = {
-  "id":4,
-  "email":"gmartinson3@illinois.edu",
+  "id": 4,
+  "email": "gmartinson3@illinois.edu",
   "name": "Gannie",
-   "gender": "M"
+  "gender": "M"
 }
 const intern5 = {
-  "id":5,
-  "email":"adaine5@samsung.com",
+  "id": 5,
+  "email": "adaine5@samsung.com",
   "name": "Antonietta",
-   "gender": "F",
-   "multiplyNums": (num1,num2) =>{ return num1 * num2;}
+  "gender": "F",
+  "multiplyNums": (num1, num2) => { return num1 * num2; }
 }
 
 
@@ -69,10 +69,10 @@ console.log(intern5.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
- console.log(intern2.speak());
+console.log(intern2.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-console.log(intern5.multiplyNums(3,4));
+console.log(intern5.multiplyNums(3, 4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
@@ -86,17 +86,17 @@ console.log(intern5.multiplyNums(3,4));
 const parent = {
   "name": "Susan",
   "age": 70,
-  "speak": function () {return this.name;},
-   "child":{
-     "name":"George",
-     "age": 50,
-     "speak": function () {return this.name;},
-     "grandchild": {
-       "name":"Sam",
-       "age": 30,
-       "speak": function () {return this.name;},
-     }
-   }
+  "speak": function () { return this.name; },
+  "child": {
+    "name": "George",
+    "age": 50,
+    "speak": function () { return this.name; },
+    "grandchild": {
+      "name": "Sam",
+      "age": 30,
+      "speak": function () { return this.name; },
+    }
+  }
 }
 
 // Log the parent object's name
