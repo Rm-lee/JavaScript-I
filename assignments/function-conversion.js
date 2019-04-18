@@ -16,9 +16,9 @@ myfunction();
 //   return param;
 // };
 // anotherFunction("Example");
-let anotherFunction = param => {return param;}
+let anotherFunction = param => param;
 
-anotherFunction("Example");
+console.log(anotherFunction("Example"));
 
 //##############################################################################
 
@@ -51,5 +51,3 @@ subtract(3,2);
 // });
 // console.log(triple);
 
-exampleArray = [1,2,3,4];
-const triple = exampleArray.map
